@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Dylan leonel Andrade Lucas</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>26000148@galileo.edu</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>(502) 5626-9563</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Soporte de Aplicaciones Middle</h3>
+            <p>Umbral S.A. - Ciudad de Guatemala, Guatemala | Diciembre 2024 - Actualmente</p>
+            <ul>
+                <li>Brindar soporte técnico y funcional a usuarios internos sobre aplicaciones corporativas (Power Street, Power Apps).</li>
+                <li>Administrar usuarios, roles y permisos en los sistemas corporativos.</li>
+                <li>Supervisar el funcionamiento de sistemas críticos: ERP, Punto de Venta, Gestión de Almacenes, Toma de Pedidos y Geoposicionamiento.</li>
+                <li>Auditar la integridad y consistencia de la información para la toma de decisiones.</li>
+                <li>Proponer e implementar mejoras e integraciones entre sistemas operativos, financieros y contables.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Desarrollador Frontend Junior</h3>
+            <p>Telus Digital Solutions - Ciudad de Guatemala, Guatemala | Enero 2023 - Octubre 2024</p>
+            <ul>
+                <li>Implementación de interfaces web responsivas y accesibles usando HTML5, CSS3 y JavaScript.</li>
+                <li>Implementación de interfaces web responsivas y accesibles usando HTML5, CSS3 y JavaScript.</li>
+                <li>Colaboración con diseñadores para implementar mockups y prototipos en herramientas como Figma o Adobe XD.</li>
+                <li>Elaboración de documentación técnica para el proyecto y componentes desarrollados.</li>
+                <li>Mantenimiento y actualización de proyectos existentes para nuevas funcionalidades o mejoras de seguridad.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Grado Universitario</h3>
+            <p>Universidad Mariano Galvez - Ciudad de Guatemala, Guatemala | 2023 - Actualmente</p>
+            <p>Ingenieria en Sistemas de Informacion y Ciencias de la Computacion - En Curso</p>
+        </div>
+        <div>
+            <h3>Grado Universitario</h3>
+            <p>Universidad Galileo - Ciudad de Guatemala, Guatemala | 2026 - Actualmente</p>
+            <p>Tecnico en Desarrollo de Software - En Curso</p>
+        </div>
+    </section>
+</body>
+</html>
